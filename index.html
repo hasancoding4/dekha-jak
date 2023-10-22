@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: burlywood;
+
+}
+body{
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 223, 200);
+    align-items: center;
+    padding: 2rem 1rem;
+    position: sticky;
+    min-height: 6vh;
+    text-align: center;
+}
+.logo-figure{
+    border: 1px solid black;
+    padding: 1rem;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+nav ul{
+    align-items: center;
+}
+nav li{
+    display: inline-block;
+    
+}
+nav ul li{
+    align-items: center;
+}
+.icon{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100px;
+
+}
+
+/* main seciton started here */
+#blog-banner{
+    background-image: url();
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+#blog-banner h1{
+    width: 150px;
+    background-color: bisque;
+    color: rgb(190, 15, 15);
+    padding: 1rem;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 7px;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.three-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(241, 223, 200);
+}
+.item{
+    background-color: rgb(230, 208, 181);
+    padding: 1.5rem 0.7rem;
+    margin: 2% 1%;
+    height: 25rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.item strong{
+    background-color: azure;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    
+}
+.heading{
+    margin-bottom: 2rem;
+    width: 200px;
+    margin:  0 auto;
+ 
+}
+.logo-div{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 3px solid yellow;
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.item-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.item-desc .pcie-qualtity{
+    background-color: white;
+    padding: 1.5rem 0.7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ccc{
+    background-color: rgb(226, 205, 178);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem 0;
+}
+.kajer-button{
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    width: max-content;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(70, 94, 30);
+}
+/* blog banner section ended hrer */
+
+/* doctore section started hrer */
+#doctore{
+    padding: 2% 1%;
+    background-color: rgb(241, 223, 200);
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+
+.heading-doctor{
+    
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.container{
+    background-color: rgb(241, 223, 200);
+    padding: 1.5px;
+    display: flex;
+}
+article{
+    flex: 3;
+    padding: 1rem;
+}
+.all-doctor{
+    display: block;
+}
+.first-doctor{
+    display: block;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+.doctor-name{
+    display: flex;
+}
+.doctores-img img{
+    flex: 30%;
+    height: 120px;
+    width: auto;
+    border: 3px solid rgb(48, 6, 48);
+    border-radius: 40%;
+}
+.doctores-img img{
+    /* height: 100%;
+    width: 100%; */
+}
+.doctors-desc{
+    flex: 70%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    
+}
+.main-hahaha{
+    font-size: 1.9rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.magazine{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+.all-details{
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.1re;
+}
+aside{
+    flex: 1;
+    background-color: rgb(241, 223, 200);
+    border-radius: 5px;
+    display: block;
+    padding: 1rem;
+}
+.aside-logo{
+    border-radius: 50%;
+    
+}
+.small-aside{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.small-div-heading{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 7px;
+    width: max-content;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.small-div-paragraph{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.btn-div{
+    margin: 1rem 0;
+    transition: transform 0.2s;
+    display: flex;
+}
+.btn-div:hover{
+    transform: scale(1.05);
+}
+.first-input{
+    border-radius: 7px;
+    font-size: 1.1rem;
+    padding: 10px;
+    font-style: italic;
+    border: none;
+}
+.buton{
+    border-radius: 7px;
+    font-size: 1.1rem;
+    padding: 10px;
+    font-style: italic;
+    border: none;
+    background-color: blue;
+}
+/* doctor section ended hrer */
+
+
+/* card-div started here */
+#card-div{
+    background-color: rgb(241, 223, 200);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+.depo .card{
+background-color: rgb(185, 209, 208);
+}
+.depo .like-btn{
+    background-color: blue;
+    
+}
+.depo-2 .card{
+    background-color: rgb(179, 177, 155);
+}
+.depo-2 .like-btn{
+    background-color: chartreuse;
+}
+.depo-3 .card{
+    background-color: rgb(151, 137, 160);
+}
+.depo-3 .like-btn{
+    background-color: chocolate;
+}
+.card{
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: rgb(129, 103, 69);
+    border-radius: 5px;
+    transition: transform 0.4s;
+    box-shadow: 0.2rem 0.2rem 0.2rem gray, -0.5rem 0.1rem 0.1rem rgb(128, 121, 121);
+   cursor: pointer;
+}
+.card:hover{
+    box-shadow: none;
+    transform: scale(1.1);
+}
+.card-heading{
+    color: green;
+    font-size: 1.4rem;
+    width: max-content;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: auto;
+    padding: 1rem 0;
+}
+.card p{
+    font-size: 1.2rem;
+
+}
+.like-btn{
+    background-color: rgb(41, 131, 131);
+    color: white;
+    padding: 1rem;
+    width: max-content;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    border: none;
+    
+    
+}
+
+/* card-div-ended hre */
+
+#doctor-details{
+    background-color: rgb(241, 223, 200);
+    padding: 10px;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.first-doctor-div{
+    display: flex;
+    
+}
+.second-doctor-div{
+    display: flex;
+}
+.third-doctor-div{
+    display: flex;
+}
+.fourth-doctor-div{
+    display: flex;
+}
+.doctor-1{
+    flex: 1;
+    display: flex;
+    margin: 1rem ;
+    background-color: rgb(231, 219, 205);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.doctor-1 img{
+    height: 6rem;
+    width: auto;
+}
+.dactor{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding: 2px ;
+    border-radius: 30%;
+}
+.img-name{
+    flex: 0.2;
+   
+}
+.description{
+    flex: 0.8;
+}
+.des-head{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5px;
+}
+.description .blod{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+}
+.description p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding:0 5%;
+}
+.description .last-strong{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.doctor-2{
+    flex: 1;
+}
+
+/* doctor stared here */
+
+/* jdoctor ended hrer */
+
+
+/* flex started here */
+#flex{
+    display: block;
+    background-color: rgb(241, 223, 200);
+}
+
+.flex-heading{
+    margin: 0 auto;
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(33, 151, 151);
+    width: max-content;
+    margin-top: 3rex;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+
+}
+.flex-container{
+    padding: 2rem;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+.box > li{
+    /* background-color: aqua; */
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.flex-container ul li{
+    
+  
+}
+.flex-container > li{
+    
+}
+#footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.rights{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem goldenrod;
+}
+.ddd{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* flex ended hreer */
+/* main section ended here */
+
+
+
+@media (max-width:600px) {
+    header{
+        display: block;
+        
+    }
+    .logo-figure{
+        margin-bottom: 2rem;
+        border: none;
+    }
+    .logo{
+        width: 90%;
+        height: auto;
+    }
+    nav li{
+        display: block;
+        margin-bottom: 1.5rem;
+        
+    }
+    .icon{
+        
+        padding: 8px;
+        box-shadow: 0.1rem 0.1rem 0.1rem green, -0.1rem 0.1rem 0.1rem black;
+    }
+    .three-blog{
+        display: block;
+    }
+    .container{
+        display: block;
+       
+    }
+    .all-doctor{
+        padding: 2rem 1rem;
+    }
+    .side-icon{
+        margin: 1.5rem;
+    }
+    .btn-div{
+        display: block;
+    }
+#card-div{
+    display: block;
+}
+.first-doctor-div{
+    display: block;
+}
+.second-doctor-div{
+    display: block;
+}
+.third-doctor-div{
+    display: block;
+}
+.fourth-doctor-div{
+    display: block;
+}
+
+.doctor-1{
+    display: block;
+}
+#footer{
+    display: block;
+}
+
+}
+    </style>
+</head>
+<body>
+  <header>
+    <figure class="logo-figure">
+      <img class="logo" src="New folder/restaurant-1837150_1920.jpg" alt="">
+    </figure>
+    <nav>
+      <ul>
+        <li><a class="icon" href="">home</a></li>
+        <li><a class="icon" href="">return</a></li>
+        <li><a class="icon" href="">contact</a></li>
+        <li><a class="icon" href="">about</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <section id="blog-banner">
+      <h1>blog</h1>
+      <div class="three-blog">
+        <div class="first-itme item">
+          <strong class="heading">New Arrivals</strong>
+          <div class="logo-div"><img src="New folder/shop-4806610_1920.jpg" alt=""></div>
+          <div class="item-desc">
+            <p class="pcie-qualtity">price: 155$</p>
+            <p class="pcie-qualtity">quantity: 4/10</p>
+          </div>
+        </div>
+        <div class="second-item item">
+          <strong class="heading">best selling</strong>
+          <div class="logo-div"><img src="New folder/istockphoto-1000564342-612x612.jpg" alt=""></div>
+          <div class="item-desc">
+            <p class="pcie-qualtity">price: 155$</p>
+            <p class="pcie-qualtity">quantity: 4/10</p>
+          </div>
+        </div>
+        <div class="third-item item">
+          <strong class="heading">top priority</strong>
+          <div class="logo-div"><img src="New folder/business-5475283_1920.jpg" alt=""></div>
+          <div class="item-desc">
+            <p class="pcie-qualtity">price: 155$</p>
+            <p class="pcie-qualtity">quantity: 4/10</p>
+          </div>
+        </div>
+      </div>
+       <button class="kajer-button">Show More</button>
+    </section>
+    <!-- blog banner section ended hree -->
+
+
+    <!-- doctore section started here -->
+    <section id="doctore">
+      <h2 class="heading-doctor">doctors</h2>
+      <div class="container">
+        <article class="all-doctor">
+          <div class="first-doctor ccc">
+            <div class="doctor-name">
+              <div class="doctores-img">
+                <img src="New folder/download (1).jpg" alt="">
+              </div>
+              <div class="doctors-desc">
+                 <p><strong class="name">Munjeerin Shahin</strong> writer</p>
+                 <p class="main-hahaha">how to chose typefaces for fintech prodicts: best practices guide</p>
+                 <p>oct 20, 2023 in <strong class="magazine">New York Times</strong></p>
+              </div>
+            </div>
+            <div class="all-details">
+              <p>At nepenthe or that the open curtain violet tapping on, nevermore flitting december sitting bird a. Hopes or dream bust this seraphim burning and, yet more by nothing rapping. Press your what that my of, rapping followed croaking throws within gently oer just. For of than the the but. Floor fantastic hope then thy word my. Ghastly have rare on.</p>
+            </div>
+          </div>
+          <div class="second-doctore ccc">
+            <div class="doctor-name">
+              <div class="doctores-img">
+                <img src="New folder/download.jpg" alt="">
+              </div>
+              <div class="doctors-desc">
+                 <p><strong class="name">khalid farhan</strong> writer</p>
+                 <p class="main-hahaha">to learn css and pythone: best practices guide</p>
+                 <p>oct 20, 2023 in <strong class="magazine">New York Times</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="third-doctor ccc">
+            <div class="doctor-name">
+              <div class="doctores-img">
+                <img src="New folder/munjeerin.jpg" alt="">
+              </div>
+              <div class="doctors-desc">
+                 <p><strong class="name">khalid farhan</strong> writer</p>
+                 <p class="main-hahaha">to learn css and pythone: best practices guide</p>
+                 <p>oct 20, 2023 in <strong class="magazine">New York Times</strong></p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <aside class="side-icon">
+          <img class="aside-logo" src="New folder/images.jpg" alt="">
+          <div class="small-aside">
+            <h3 class="small-div-heading">Email Newsletter</h3>
+            <p class="small-div-paragraph">useful front-end & ux tips, deliverered once a week</p>
+            <p class="small-div-desc">Or our to word flung the and here a has for. On nepenthe thy nothing only chamber and longer quoth and. Wind sent burning gently.</p>
+            <div class="btn-div">
+              <input class="first-input" type="email" placeholder="your email">
+            <button class="buton">Mecow!</button>
+            </div>
+
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- doctore section ended here -->
+
+
+    <!-- card section started hrer -->
+    <section id="card-div">
+      <div class="depo">
+        <div class="card">
+          <h4 class="card-heading">Accessible Front-End Components</h4>
+          <p>Disaster soul so nevermore of my dreaming the rare heart gave. Turning the it and bird have mefilled unto name.</p>
+          <button class="like-btn"> Accessible Components</button>
+        </div>
+      </div>
+      <div class="depo-2">
+        <div class="card">
+          <h4 class="card-heading">Accessible Front-End Components</h4>
+          <p>Disaster soul so nevermore of my dreaming the rare heart gave. Turning the it and bird have mefilled unto name.</p>
+          <button class="like-btn">Explore  Components</button>
+        </div>
+      </div>
+      <div class="depo-3">
+        <div class="card">
+          <h4 class="card-heading">Accessible Front-End Components</h4>
+          <p>Disaster soul so nevermore of my dreaming the rare heart gave. Turning the it and bird have mefilled unto name.</p>
+          <button class="like-btn">Explore Accessible Components</button>
+      </div>
+    </section>
+    <!-- card section ended here -->
+
+    <!-- doctor details started here -->
+    <section id="doctor-details">
+      <div class="first-doctor-div">
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/1674367212.png" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/female-doctor-avatar-clipart-icon-in-flat-design-vector.jpg" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="second-doctor-div">
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/images.png" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/istockphoto-1189304032-612x612.jpg" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="third-doctor-div">
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/large-Smile-Guy-web.jpg" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/NewDoctorsWebsite-Sriram.jpg" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="fourth-doctor-div">
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/png-transparent-physician-computer-icons-medicine-doctor-s-medical-medical-equipment-therapy.png" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="doctor-1">
+          <div class="img-name">
+            <img class="dactor" src="New folder/doctor/1674367212.png" alt="">
+            
+          </div>
+          <div class="description">
+            <p><strong class="blod">Juan Diego Rodriguez </strong>Cardiolozist</p>
+            <h5 class="des-head">Gatsby Headaches: Working With Media (Part 2)</h5>
+            <p>In the final part of this two-part series on solving headaches when working with media files in Gatsby projects, Juan Rodriguez demonstrates strategies and techniques for handling various types of documents, including Markdown files, PDFs, and 3D models.</p>
+            <div>
+              <p>october 16, 2023 in <strong class="last-strong">React, Optimization, Performance</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- doctor detials ended here -->
+
+
+    <!-- flex-section started hree -->
+    <section id="flex">
+      <h5 class="flex-heading">BROWSE ALL SMASHING MAGAZINE TOPICS</h5>
+      <div class="flex-container">
+        <ul class="box">
+          <li><a href="">Accessibility</a></li>
+          <li><a href="">Career</a></li>
+          <li><a href="">Data Visualization</a></li>
+          <li><a href="">Design Systems</a></li>
+          <li><a href="">Freebies</a></li>
+          <li><a href="">Inspiration</a></li>
+          <li><a href="">Performance</a></li>
+          <li><a href="">Responsive Design</a></li>
+          <li><a href="">Typography</a></li>
+          <li><a href="">Usability</a></li>
+          <li><a href="">Wallpapers</a></li>
+          <li><a href="">Best practices</a></li>
+          <li><a href="">checklists</a></li>
+          <li><a href="">Design</a></li>
+          <li><a href="">E-Commerce</a></li>
+          <li><a href="">HTML</a></li>
+          <li><a href="">java</a></li>
+          <li><a href="">privacy</a></li>
+          <li><a href="">tools</a></li>
+          <li><a href="">ux</a></li>
+          <li><a href="">webdesign</a></li>
+          <li><a href="">business</a></li>
+          <li><a href="">css</a></li>
+          <li><a href="">design patterns</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- flex section ended here -->
+  </main>
+
+
+
+  <footer id="footer">
+    <div class="rights">
+        copyright &copy; allautoparts express 2024
+    </div>
+    <div class="ddd">
+      <p>all rights reserved by biplob mia</p>
+    </div>
+  </footer>
+</body>
+</html>
